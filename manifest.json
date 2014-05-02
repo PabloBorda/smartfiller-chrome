@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+
+  "name": "smartfiller-chrome",
+  "description": "In contrast to ALL the form fillers around, roboform, Autofill, etc.. This form fillers
+  stores every form entry you type, as key value pairs. And then if the loaded page contains an empty
+  field, the extension fills it with the value whose key is the most similar (less amount of operations to convert one string into other). You verify that everything is
+  OK, modyfy if anything is wrong, and SUBMIT. As simple as that,.. no profiles.. no previously input all fields
+  in a form only for the extension.. it just learns from previous forms.. and combines all fields to fill new and different forms.. It
+  cannot be possible that today isnt there a tool that avoids you from filling information OVER AND OVER AGAIN.. The shity extensions
+  available only fill the email, your name.. and your address.., other fields are too difiult.. as if they
+  were not text..FUCK! I GOT TIRED OF THAT STUPID JOB APPLICATIONS!!",
+ 
+  "version": "1.0",
+
+  "permissions": ["tabs","<all_urls>"],
+  "background": {
+    "scripts": ["jquery-2.1.0.min.js","main.js","background.js"]
+  },
+  "content_scripts" : [
+    {
+      "matches" : [ 
+         "http://*/*",
+         "https://*/*"
+      ],
+      "js" : [ "jquery-2.1.0.min.js","contentscript.js" ],
+      "run_at" : "document_idle",
+      "all_frames" : false
+    }
+  ],
+  "browser_action": {
+    "default_icon": "form.png",
+    "default_popup": "background.html"
+  }
+}

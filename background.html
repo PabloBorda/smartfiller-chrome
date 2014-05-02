@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Smart Form Auto Filler</title>
+    <style>
+      body {
+        min-width: 357px;
+        overflow-x: hidden;
+      }
+
+      img {
+        margin: 5px;
+        border: 2px solid black;
+        vertical-align: middle;
+        width: 75px;
+        height: 75px;
+      }
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     -->
+   
+    <script type="text/javascript" src="jquery-2.1.0.min.js"></script>
+    
+   <script type="text/javascript" src="background.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+    
+  </head>
+  <body>
+    <div align="center">
+      <p>When you submit a form, this extension stores all data as simple key/value pairs. When you load a page, fills all inputs with the stored value of the most similar key to the field's name or description. This extension is running... </p>
+    <table align="center">
+      <tr><td>
+        <button id="backupbtn">Backup...</button>
+      </td><td>
+        <button id="loadbtn">Load existing fields set...</button>
+      </td></tr><tr><td>
+        <button id="fillbtn">Fill form</button>
+      </td><td>
+        
+      </td></tr>
+    </table>
+        
+      
+    </div>
+  </body>
+</html>
+
