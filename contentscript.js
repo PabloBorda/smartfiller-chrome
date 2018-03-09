@@ -293,7 +293,7 @@ function normalize_key(str){
 var selectFormEntries = function(){
 var entries = [];
 console.log(document.title + " from selectFormEntries");
-$("input[type!='hidden'],textarea").each(
+$("input:not([class*='search']):not([class*='chat'])[type!='hidden'],textarea").each(
   function(a,b){
     var key = $("label[for='" + b.id + "']").text();
     var value;
