@@ -1,5 +1,5 @@
 Learns as you fill forms, you will never have to type the same thing twice.
-Check our perfomance ideas, to understand my goal.
+Check our perfomance metrics, to understand my goal.
 
 CHANGELOG  v1.1
 ---------------
@@ -35,11 +35,11 @@ Donations
 ---------
 
 You can contribute to the project by donating any amount of money
-you like to support the project.
+you like, to support the project.
 
-Go to PayPal
 
-https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Q4BMDLF7DJRC2
+
+https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4FFRW7S9TGFG4
 
 
 
