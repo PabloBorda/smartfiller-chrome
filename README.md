@@ -1,6 +1,7 @@
 Learns as you fill forms, you will never have to type the same thing twice.
 
 CHANGELOG  v1.1
+---------------
 
 1- Avoid filling of search inputs                                           DONE
 2- Detect if the field is inside a search/chat form, if so, dont fill it    DONE
@@ -17,7 +18,7 @@ Form fill performance metrics
 
 
 Instructions
-============
+------------
 
 - Load the project folder on the chrome://extensions page . 
 - There switch to developer mode and then you will see the button appearing next to the address bar. 
@@ -25,4 +26,4 @@ Instructions
 - When you submit a form, all entries are stored. As simple as that, no profiles, no previously input data to make the form filler work, no cloud, no registration, no nothing.. just works.. so.. 
 
 
-HAPPY FORM FILLING
+HAPPY FORM FILLING !
