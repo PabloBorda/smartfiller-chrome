@@ -25,5 +25,22 @@ Instructions
 - When a page loads, it lookups all existing entries stored in the taffy javascript client database, and calculates the most accurate, based on levenshtein distance, or the minimum amount of operations needed for a string to become another.
 - When you submit a form, all entries are stored. As simple as that, no profiles, no previously input data to make the form filler work, no cloud, no registration, no nothing.. just works.. so.. 
 
+Download from the App Store
+---------------------------
+
+https://chrome.google.com/webstore/detail/smartfiller-chrome/fhlkmhgjnaiojghodnfmaienkjooccah?authuser=1
+
+
+Donations
+---------
+
+You can contribute to the project by donating any amount of money
+you like to support the project.
+
+Go to PayPal
+
+https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Q4BMDLF7DJRC2
+
+
 
 HAPPY FORM FILLING !
