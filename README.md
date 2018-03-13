@@ -3,18 +3,18 @@ Learns as you fill forms, you will never have to type the same thing twice.
 CHANGELOG  v1.1
 ---------------
 
-1- Avoid filling of search inputs                                           DONE
-2- Detect if the field is inside a search/chat form, if so, dont fill it    DONE
-3- Make sure that for each website there is 
-4- Select elements inside iframe
-6- If form comes already filled, do not overwrite it
+- Avoid filling of search inputs                                           DONE
+- Detect if the field is inside a search/chat form, if so, dont fill it    DONE
+- Make sure that for each website there is 
+- Select elements inside iframe
+- If form comes already filled, do not overwrite it
 
 
 Form fill performance metrics
 -----------------------------
 
-7- Detect when the user has to type the same thing twice and send error
-8- Measure the amount of changes he has to do before submit the form
+- Detect when the user has to type the same thing twice and send error
+- Measure the amount of changes he has to do before submit the form
 
 
 Instructions
