@@ -1,5 +1,19 @@
-The following is one of the most stupid things I have done in my life, while applying to jobs, got fed up with HR stuff, with phone calls at any time in the morning.. I got tired of writing all stuff again and again for each application on a different webpage, that may be was a scam to get yout information. I tried many form filling tools, AutoFill, RoboForms... etc, but none of them autocompleted more than email, name.. and if you want a spetial case, it doesn't learn from previous input.. you need to open the configuration to specify your new entry.. All tools pretend to always fill the correct information, and thus they require to fill form profiles that then are backup in the cloud. This form filler learns from previous input and use those entries to fill new forms. 
-If the entries database has only your name, and then you autocomplete with that, you will get your name in all the fields.. But the idea is just not to type or copy/paste the same thing twice, so remove the name from other entries, leave the correct one, and fill the other fields.. next time in any form that appears, the correct entry value will be filled.
+Learns as you fill forms, you will never have to type the same thing twice.
+
+CHANGELOG  v1.1
+
+1- Avoid filling of search inputs                                           DONE
+2- Detect if the field is inside a search/chat form, if so, dont fill it    DONE
+3- Make sure that for each website there is 
+4- Select elements inside iframe
+6- If form comes already filled, do not overwrite it
+
+
+Form fill performance metrics
+-----------------------------
+
+7- Detect when the user has to type the same thing twice and send error
+8- Measure the amount of changes he has to do before submit the form
 
 
 Instructions
