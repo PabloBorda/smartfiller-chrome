@@ -35,7 +35,7 @@ Donations
 ---------
 
 You can contribute to the project by donating any amount of money
-you like, to support the project.
+you like.
 
 
 
