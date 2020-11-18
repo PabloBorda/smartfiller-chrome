@@ -347,9 +347,23 @@ $("input:not([class*='search']):not([class*='chat'])[type!='hidden'],textarea").
        chrome.extension.sendRequest({"type":"fillform","entries": formEntries },function(response){
    	     var fillwiths = response;
    	     for (var i=0;i<fillwiths.length;i++){
-   	       $("#" + fillwiths[i].fill).val(fillwiths[i].with.value);
-   	       console.log("Filled " + fillwiths[i].fill + " with " + fillwiths[i].with.value );
-       
+		   if ($("#"+fillwiths[i].fill).attr("type") == "file"){
+			  $("#" + fillwiths[i].fill).val(""); 
+			  console.log("Filled " + fillwiths[i].fill + " file input with empty string");
+		   } else {
+			if ($("#"+fillwiths[i].fill).attr("type") == "checkbox"){
+				console.log("The type of the field " + fillwiths[i].fill + " is " + JSON.stringify($("#"+fillwiths[i].fill).attr("type")));	 
+				$("#" + fillwiths[i].fill).val(fillwiths[i].with.value);
+				console.log("Filled " + fillwiths[i].fill + " with " + fillwiths[i].with.value );
+
+			} else {
+			
+			   
+				console.log("The type of the field " + fillwiths[i].fill + " is " + JSON.stringify($("#"+fillwiths[i].fill).attr("type")));	 
+				$("#" + fillwiths[i].fill).val(fillwiths[i].with.value);
+				console.log("Filled " + fillwiths[i].fill + " with " + fillwiths[i].with.value );
+			}
+		   }
    	     }
 		 
 		 
