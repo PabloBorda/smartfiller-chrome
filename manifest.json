@@ -8,7 +8,7 @@
 
   "permissions": ["tabs","<all_urls>"],
   "background": {
-    "scripts": ["jquery-2.1.0.min.js","main.js","background.js"]
+    "scripts": ["jquery-3.5.1.min.js","main.js","background.js"]
   },
   "content_scripts" : [
     {
@@ -16,7 +16,7 @@
          "http://*/*",
          "https://*/*"
       ],
-      "js" : [ "jquery-2.1.0.min.js","contentscript.js" ],
+      "js" : [ "jquery-3.5.1.min.js","contentscript.js" ],
       "run_at" : "document_idle",
       "all_frames" : false
     }
