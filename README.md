@@ -1,46 +1,81 @@
-Learns as you fill forms, you will never have to type the same thing twice.
-Check our perfomance metrics, to understand my goal.
+# 🧠 SmartFiller Chrome Extension
 
-CHANGELOG  v1.1
----------------
+**Learn once, never type it again.**  
+SmartFiller is an intelligent browser extension that passively learns as you interact with web forms and automatically fills future forms without requiring configuration, registration, or cloud sync.
 
-- Avoid filling of search inputs                                           DONE
-- Detect if the field is inside a search/chat form, if so, dont fill it    DONE
-- Fill elements inside iframe                                              
-- If form comes already filled, do not overwrite it 
+---
 
+## 🚀 What It Does
 
-Form fill performance metrics
------------------------------
+✅ Learns every form field you complete  
+✅ Detects and fills the most similar fields using **Levenshtein distance**  
+✅ Automatically avoids **search bars**, **chat boxes**, and **already filled inputs**  
+✅ Stores everything locally using the **TAFFY** database—**no internet required**  
+✅ Works **inside iframes** and **complex layouts**  
 
-- Detect when the user has to type the same thing twice and send error
-- Measure the amount of changes he has to do before submit the form
+> 🔍 If you've ever typed your email address twice on two websites, SmartFiller will make sure you never do it again.
 
+---
 
-Instructions
-------------
+## ✨ Zero-Input Philosophy
 
-- Load the project folder on the chrome://extensions page . 
-- There switch to developer mode and then you will see the button appearing next to the address bar. 
-- When a page loads, it lookups all existing entries stored in the taffy javascript client database, and calculates the most accurate, based on levenshtein distance, or the minimum amount of operations needed for a string to become another.
-- When you submit a form, all entries are stored. As simple as that, no profiles, no previously input data to make the form filler work, no cloud, no registration, no nothing.. just works.. so.. 
+This project is a real-world implementation of a **Subjective Technology system**. It eliminates redundant interactions by making user input nearly obsolete. It behaves like a **KnowledgeHook** that watches your behavior and fills forms **as if it were you**—without requiring setup or configuration.
 
-Download from the App Store
----------------------------
+Unlike traditional third-person systems, SmartFiller fills forms subjectively—using your behavior and context to decide what to do.
 
-https://chrome.google.com/webstore/detail/smartfiller-chrome/fhlkmhgjnaiojghodnfmaienkjooccah?authuser=1
+---
 
+## 📈 Form Fill Performance Metrics
 
-Donations
----------
+- Detects when the user has to **type the same thing twice** 🛑  
+- Measures how many **corrections are made** before submission ✏️  
+- Tracks system intelligence growth through minimized input 📉
 
-You can contribute to the project by donating any amount of money
-you like.
+---
 
+## 🧾 CHANGELOG – v1.1
 
+- ✅ Avoid filling of search inputs  
+- ✅ Detect if the field is inside a search/chat form, skip it  
+- ✅ Partial support for fields inside iframes  
+- ✅ Do not overwrite pre-filled form fields  
 
-https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4FFRW7S9TGFG4
+---
 
+## 🛠️ How To Install
 
+1. Download or clone this repo.
+2. Go to `chrome://extensions/`
+3. Enable **Developer Mode** in the top-right.
+4. Click **Load unpacked** and select the project folder.
+5. When a web page loads, SmartFiller will begin operating in the background.
 
-HAPPY FORM FILLING !
+That’s it—no login, no cloud sync, no onboarding.
+
+> 🧪 Just start using your browser like you normally do, and SmartFiller will do the rest.
+
+---
+
+## 📥 Download from Chrome Web Store
+
+🔗 [SmartFiller Chrome Extension](https://chrome.google.com/webstore/detail/smartfiller-chrome/fhlkmhgjnaiojghodnfmaienkjooccah?authuser=1)
+
+---
+
+## 💖 Support the Project
+
+If you find SmartFiller useful, consider contributing to support its development:
+
+[![Donate with PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4FFRW7S9TGFG4)
+
+---
+
+## 📚 Related Technologies
+
+This extension is based on Subjective Technology principles. You can learn more in our free book and whitepaper:
+
+📖 **[Download from SubjectiveTechnologies.com](https://subjectivetechnologies.com)**
+
+---
+
+## 🎉 Happy Form Filling!
